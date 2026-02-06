@@ -79,6 +79,7 @@ export default function App() {
       <PageLoad />
       <Counter />
       <CountWatcher />
+      <Footer />
     </>
   );
 }
