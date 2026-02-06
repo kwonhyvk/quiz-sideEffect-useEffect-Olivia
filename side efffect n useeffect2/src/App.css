@@ -1,0 +1,52 @@
+
+.counter-box {
+  padding: 16px;
+  margin: 16px auto;
+  border-radius: 10px;
+  background-color: #0f172a;
+  color: #e5e7eb;
+  text-align: center;
+
+}
+
+.counter-text {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.btn {
+  padding: 8px 14px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn.increase {
+  background-color: #22c55e;
+  color: #022c22;
+}
+
+.btn.reset {
+  background-color: #c13e3e;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+
+.app-container {
+  min-height: 100vh;       
+  display: flex;
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;     
+  gap: 16px;  
+}
+
+.page-title {
+  text-align: center;
+}
